@@ -5,7 +5,7 @@ ruby "2.1.1" # make sure .ruby-version agrees
 gem 'rails', '3.2.16'
 
 gem 'pg'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.3'
 gem 'thin'
 gem 'bootstrap-sass', "~> 2.0"
 gem 'sass', "~> 3.2.0"
