@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby "2.1.1" # make sure .ruby-version agrees
 
-gem 'rails', '3.2.16'
+gem 'rails', '6.0.3.5'
 
 gem 'pg'
 gem 'jquery-rails'
@@ -15,7 +15,7 @@ gem 'omniauth-github'
 gem 'github_api'
 gem 'dynamic_form'
 gem 'rack-canonical-host'
-gem 'paul_revere'
+gem 'paul_revere', '>= 1.2'
 gem 'kramdown'
 gem 'newrelic_rpm'
 gem 'rack-ssl-enforcer'
