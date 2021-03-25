@@ -16,7 +16,7 @@ gem 'github_api'
 gem 'dynamic_form'
 gem 'rack-canonical-host'
 gem 'paul_revere'
-gem 'kramdown'
+gem 'kramdown', '>= 2.3.1'
 gem 'newrelic_rpm'
 gem 'rack-ssl-enforcer'
 
