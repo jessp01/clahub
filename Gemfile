@@ -2,20 +2,20 @@ source 'https://rubygems.org'
 
 ruby "2.1.1" # make sure .ruby-version agrees
 
-gem 'rails', '3.2.16'
+gem 'rails', '4.0.0'
 
 gem 'pg'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.0'
 gem 'thin'
 gem 'bootstrap-sass', "~> 2.0"
 gem 'sass', "~> 3.2.0"
-gem 'chosen-rails'
+gem 'chosen-rails', '>= 1.1.0'
 gem 'omniauth'
 gem 'omniauth-github'
-gem 'github_api'
+gem 'github_api', '>= 0.11.3'
 gem 'dynamic_form'
-gem 'rack-canonical-host'
-gem 'paul_revere'
+gem 'rack-canonical-host', '>= 0.0.9'
+gem 'paul_revere', '>= 1.2'
 gem 'kramdown'
 gem 'newrelic_rpm'
 gem 'rack-ssl-enforcer'
@@ -30,17 +30,17 @@ group :development do
 end
 
 group :test do
-  gem 'launchy'
+  gem 'launchy', '>= 2.4.2'
   gem 'capybara'
   gem 'shoulda-matchers'
-  gem 'factory_girl_rails'
-  gem 'webmock'
+  gem 'factory_girl_rails', '>= 4.4.1'
+  gem 'webmock', '>= 1.17.4'
   gem 'poltergeist'
   gem 'database_cleaner'
 end
 
 group :test, :development do
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails', '~> 2.14', '>= 2.14.2'
   gem 'simplecov', require: false
   gem 'dotenv'
   gem 'guard-livereload'
@@ -53,7 +53,7 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.0'
   gem 'uglifier', '>= 1.0.3'
 end
