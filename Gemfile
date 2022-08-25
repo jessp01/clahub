@@ -10,8 +10,8 @@ gem 'thin'
 gem 'bootstrap-sass', "~> 2.0"
 gem 'sass', "~> 3.2.0"
 gem 'chosen-rails'
-gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth', '>= 2.0.0'
+gem 'omniauth-github', '>= 2.0.0'
 gem 'github_api'
 gem 'dynamic_form'
 gem 'rack-canonical-host'
