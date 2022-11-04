@@ -10,8 +10,8 @@ gem 'thin'
 gem 'bootstrap-sass', "~> 2.0"
 gem 'sass', "~> 3.2.0"
 gem 'chosen-rails'
-gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth', '>= 2.1.0'
+gem 'omniauth-github', '>= 2.0.0'
 gem 'github_api'
 gem 'dynamic_form'
 gem 'rack-canonical-host'
@@ -40,7 +40,7 @@ group :test do
 end
 
 group :test, :development do
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails', '~> 2.14', '>= 2.14.2'
   gem 'simplecov', require: false
   gem 'dotenv'
   gem 'guard-livereload'
@@ -53,7 +53,7 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 3.2.6'
+  gem 'coffee-rails', '~> 3.2.2'
   gem 'uglifier', '>= 1.0.3'
 end
