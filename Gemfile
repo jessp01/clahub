@@ -12,7 +12,7 @@ gem 'sass', "~> 3.2.0"
 gem 'chosen-rails'
 gem 'omniauth'
 gem 'omniauth-github'
-gem 'github_api'
+gem 'github_api', '>= 0.13.1'
 gem 'dynamic_form'
 gem 'rack-canonical-host'
 gem 'paul_revere'
@@ -31,11 +31,11 @@ end
 
 group :test do
   gem 'launchy'
-  gem 'capybara'
+  gem 'capybara', '>= 2.3.0'
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
   gem 'webmock'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.5.1'
   gem 'database_cleaner'
 end
 
