@@ -2,14 +2,14 @@ source 'https://rubygems.org'
 
 ruby "2.1.1" # make sure .ruby-version agrees
 
-gem 'rails', '7.0.8.1'
+gem 'rails', '6.1.7.9'
 
 gem 'pg'
 gem 'jquery-rails', '>= 4.0.1'
 gem 'thin', '>= 1.7.0'
 gem 'bootstrap-sass', "~> 2.0"
 gem 'sass', "~> 3.2.0"
-gem 'chosen-rails', '>= 1.1.1'
+gem 'chosen-rails', '>= 1.9.0'
 gem 'omniauth', '>= 1.3.1'
 gem 'omniauth-github', '>= 1.1.2'
 gem 'github_api', '>= 0.13.1'
@@ -53,7 +53,7 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '~> 5.0.8'
+  gem 'sass-rails', '~> 6.0.0'
   gem 'coffee-rails', '~> 4.2.2'
   gem 'uglifier', '>= 1.0.3'
 end
