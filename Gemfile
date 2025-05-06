@@ -40,7 +40,7 @@ group :test do
 end
 
 group :test, :development do
-  gem 'rspec-rails', '~> 2.99', '>= 2.99.0'
+  gem 'rspec-rails', '~> 8.0', '>= 8.0.0'
   gem 'simplecov', require: false
   gem 'dotenv'
   gem 'guard-livereload'
