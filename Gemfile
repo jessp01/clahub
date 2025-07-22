@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 
 ruby "2.1.1" # make sure .ruby-version agrees
 
-gem 'rails', '7.0.8.1'
+gem 'rails', '3.2.17'
 
 gem 'pg'
-gem 'jquery-rails', '>= 4.0.1'
+gem 'jquery-rails', '>= 3.1.1'
 gem 'thin', '>= 1.7.0'
 gem 'bootstrap-sass', "~> 2.0"
 gem 'sass', "~> 3.2.0"
@@ -43,7 +43,7 @@ group :test, :development do
   gem 'rspec-rails', '~> 2.99', '>= 2.99.0'
   gem 'simplecov', require: false
   gem 'dotenv'
-  gem 'guard-livereload'
+  gem 'guard-livereload', '>= 2.1.3'
 end
 
 group :development, :darwin do
@@ -53,7 +53,7 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '~> 5.0.8'
-  gem 'coffee-rails', '~> 4.2.2'
+  gem 'sass-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.0'
   gem 'uglifier', '>= 1.0.3'
 end
