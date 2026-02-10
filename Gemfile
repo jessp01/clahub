@@ -12,7 +12,7 @@ gem 'sass', "~> 3.2.0"
 gem 'chosen-rails', '>= 1.1.1'
 gem 'omniauth', '>= 1.3.1'
 gem 'omniauth-github', '>= 1.1.2'
-gem 'github_api', '>= 0.13.1'
+gem 'github_api', '>= 0.12.0'
 gem 'dynamic_form'
 gem 'rack-canonical-host', '>= 0.2.1'
 gem 'paul_revere', '>= 1.3'
